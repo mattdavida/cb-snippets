@@ -1,0 +1,127 @@
+{
+    "Angular Component": {
+        "prefix": "cb-component",
+        "description": "Angular component",
+        "body": [
+            "import { Component, OnInit } from '@angular/core';",
+            "",
+            "import { Observable } from 'rxjs/Observable;",
+            "import { Subscription } from 'rxjs/Subscription;",
+            "",
+            "import { NameService } from './name.service.ts';",
+            "",
+            "@Component({",
+            "  selector: 'selector-name',",
+            "  templateUrl: 'name.component.html'",
+            "})",
+            "",
+            "export class NameComponent implements OnInit {",
+            "  constructor() { }",
+            "",
+            "  ngOnInit() { }",
+            "}"
+        ]
+    },
+    "Angular Service": {
+        "prefix": "cb-service",
+        "description": "Angular Service",
+        "body": [
+            "import { Injectable } from '@angular/core';",
+            "",
+            "import { HttpService } from 'app/core/services/http.service';",
+            "import { Observable } from 'rxjs/Observable;",
+            "",
+            "@Injectable()",
+            "export class NameService {",
+            "  constructor(private httpService: HttpService) { }",
+            "",
+            "}"
+        ]
+    },
+    "Import BroadcastService": {
+        "prefix": "import-BroadcastService",
+        "description": "Import Broadcast Service into file from 'app/core/services'",
+        "body": [
+            "import { BroadcastService } from 'app/core/services/broadcast.service';"
+        ]
+    },
+    "Import cloneDeep": {
+        "prefix": "import-cloneDeep",
+        "description": "require cloneDeep into file from 'lodash.clonedeep",
+        "body": [
+            "const cloneDeep = require('lodash.clonedeep');"
+        ]
+    },
+    "Import fadeInOutTrigger": {
+        "prefix": "import-fadeInOutTrigger",
+        "description": "Import fadeInOutTrigger into file from 'app/core/animations/fade-in-out",
+        "body": [
+            "import { fadeInOutTrigger } from 'app/core/animations/fade-in-out';"
+        ]
+    },
+    "Import isEqual": {
+        "prefix": "import-isEqual",
+        "description": "require isEqual into file from 'lodash.isEqual",
+        "body": [
+            "const isEqual = require('lodash.isEqual');"
+        ]
+    },
+    "Import Lookup": {
+        "prefix": "import-Lookup",
+        "description": "Import Lookup into file from 'app/core/models/lookup.model",
+        "body": [
+            "import { Lookup } from 'app/core/models/lookup.model';"
+        ]
+    },
+    "Import LookupService": {
+        "prefix": "import-LookupService",
+        "description": "Import LookupService into file from 'app/core/services/LookupService",
+        "body": [
+            "import { LookupService } from 'app/core/services/LookupService';"
+        ]
+    },
+    "Import     ": {
+        "prefix": "import-LookupListService",
+        "description": "Import LookupListService into file from 'app/core/services/LookupListService",
+        "body": [
+            "import { LookupListService } from 'app/core/services/LookupListService';"
+        ]
+    },
+    "Import Observable": {
+        "prefix": "import-Observable",
+        "description": "Import Observable into file from 'rxjs/Observable'",
+        "body": [
+            "import { Observable } from 'rxjs/Observable';"
+        ]
+    },
+    "Import Subscription": {
+        "prefix": "import-Subscription",
+        "description": "Import Subscription into file from 'rxjs/Subscription'",
+        "body": [
+            "import { Subscription } from 'rxjs/Subscription';"
+        ]
+    },
+    "Import StateService": {
+        "prefix": "import-StateService",
+        "description": "Import StateService into file from '@uirouter/angular'",
+        "body": [
+            "import { StateService } from '@uirouter/angular';"
+        ]
+    },
+    "Import ToastrService": {
+        "prefix": "import-ToastrService",
+        "description": "Import Toastr Service into file from 'app/core/services'",
+        "body": [
+            "import { ToastrService } from 'app/core/services/ToastrService';"
+        ]
+    },
+    "Subsribe()": {
+        "prefix": "subscribe",
+        "description": "completes the subscribe function",
+        "body": [
+            "subscribe((data: any) => {",
+            "",
+            "});"
+        ]
+    }
+}
