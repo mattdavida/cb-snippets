@@ -12,7 +12,7 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 | ---------------------------- | ----------------------------------------------------------------------------- |
 | `cb-component`               | Component                                                                     |
 | `cb-service`                 | Service                                                                       |
-| `import-BroadcastService`    | Import Broadcast Service into file from 'app/core/services'                   |
+| `import-BroadcastService`    | Import Broadcast Service into file from 'app/core/services/broadcast.service  |
 | `import-cloneDeep`           | Require cloneDeep into file from 'lodash.clonedeep'                           |
 | `import-fadeInOutTrigger`    | Import fadeInOutTrigger into file from 'app/core/animations/fade-in-out'      |
 | `import-isEqual`             | require isEqual into file from 'lodash.isEqual'                               |
@@ -22,7 +22,7 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 | `import-Observable`          | Import Observable into file from 'rxjs/Observable'                            |
 | `import-Subscription`        | Import Subscription into file from 'rxjs/Subscription'                        |
 | `import-StateService`        | Import StateService into file from '@uirouter/angular'                        |
-| `import-ToastrService`       | Import Toastr Service into file from 'app/core/services'                      |
+| `import-ToastrService`       | Import Toastr Service into file from 'app/core/services/ToastrService'        |
 | `subscribe`                  | completes the subscribe function                                              |
 
 
