@@ -1,4 +1,4 @@
-# cb-snippets README
+# cb-snippets
 
 This is a small extension to help out the cb team at Datalink when writing TS code
 
